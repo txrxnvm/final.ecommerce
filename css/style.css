@@ -6,6 +6,11 @@ body{
     left: 0;
     right: 0;
     font-family: sans-serif;
+    background-image: url(https://i.pinimg.com/originals/4a/9e/d6/4a9ed6b86be396f05ba5b4d7b656b288.jpg);
+    background-size: 100%;
+    background-position: center;
+    position: relative;
+    min-height: 100vh;
 }
 
 a{
@@ -34,7 +39,8 @@ text-decoration: none;
 }
 
 .navbar img{
-    cursor: pointer;
+    cursor: pointer;  
+    max-width: 35%;
 }
 
 .pages{
@@ -75,6 +81,7 @@ text-decoration: none;
     top: 174px;
     width: 100%;
     margin-left: 4%;
+
 }
 
 .header h1{
@@ -84,7 +91,7 @@ text-decoration: none;
     font-weight: bold;
     font-size: 44px;
     line-height:40px;
-    color: #957400;
+    color: #df8a0b;
     margin-top: 150px;
 }
 .header p{
@@ -94,7 +101,7 @@ text-decoration: none;
     font-weight: bold;
     font-size: 20px;
     line-height: 26px;
-    color: beige;
+    color: rgb(8, 158, 63);
 }
 
 .header img{
@@ -118,7 +125,7 @@ text-decoration: none;
 .img1, .img2, .img3{
     max-width: 100%;
     max-height: 100%;
-    margin: 10px 50px;
+    margin: 10px 90px;
 }
 
 .buy{
@@ -131,19 +138,174 @@ text-decoration: none;
     font-weight:bold;
     font-size: 30px;
     line-height: 35px;
-    color: orange;
+    color: rgb(76, 7, 94);
 }
 
 .buy p{
     width: 50%;
     font-family: sans-serif;
-    font-style: normal;
+    font-style: bolder;
     font-weight: 500;
-    font-size: 22px;
+    font-size: 25px;
     line-height: 26px;
-    color: black;
+    color: rgb(6, 68, 34);
 }
 
 .cart{
-   
+   position: absolute;
+   top: 1390px;
+   text-align: right;
+   width: 100%;
 }
+
+.cart h1{
+    font-style: normal;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: rgb(95, 197, 90);
+}
+
+.cart p{
+position: absolute;
+right: 0px;
+width: 50%;
+font-family: sans-serif;
+font-size: 22px;
+line-height: 26px;
+color: #034319;
+text-align: right;
+}
+
+
+.cart2{
+    position: absolute;
+    top: 800px;
+    text-align: right;
+    width: 100%;
+    color: bisque;
+ }
+ 
+ .cart2 h1{
+     font-style: normal;
+     font-weight: bold;
+     font-family: sans-serif;
+     font-size: 30px;
+     color: rgb(31, 104, 27);
+ }
+ 
+ .cart p{
+ position: absolute;
+ right: 0px;
+ width: 50%;
+ font-family: sans-serif;
+ font-size: 22px;
+ line-height: 26px;
+ color: #28a052;
+ text-align: right;
+ }
+
+form{
+    position: absolute;
+    top: 350px;
+    width: 25%;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+form input{
+    position: absolute;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    width: 750px;
+    height: 60px;
+    background-color: beige;
+}
+.firstname{
+    position: absolute;
+    top: 0px;
+    border-radius: 60px;
+}
+.lastname{
+    position: absolute;
+    top: 80px;
+    border-radius: 60px;
+}
+.email{
+    position: absolute;
+    top: 160px;
+    border-radius: 60px;
+}
+.submit{
+    position: absolute;
+    cursor: pointer;
+    top: 250px;
+    margin-left: 42%;
+    margin-right: 42%;
+    width: 16%;
+    height: 40px;
+    background-color: #f19151;
+    border: 1px solid #eee4dd;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 14px;
+    color: beige;
+}
+
+input[type="text"]{
+    padding: 0 20px;
+}
+
+::-webkit-input-placeholder{
+    position: absolute;
+    top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    align-self: center;
+    color: #df8a0b;
+
+}
+
+:focus::-webkit-scrollbar{
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #fff515;
+
+}
+
+
+footer {
+    background-image: none;
+    background-color: darkgreen;
+    color: white;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
+  }
+  
+  .contact-info, .privacy-policy {
+    margin-bottom: 10px;
+  }
+  
+  .privacy-policy a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .privacy-policy a:hover {
+    text-decoration: underline;
+  }
+  
+  
+    footer{position: absolute;
+    bottom: 0;
+    width: 100%;
+    
+  }
+  

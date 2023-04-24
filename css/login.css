@@ -11,15 +11,145 @@ form h1{
     text-align: center;   
 }
 form{
-    margin: auto;
-    width: 600px;
-    height: 600px;
-    background-color: rgb(237, 161, 228);
-    padding: 2px;
-    box-shadow: 0px 0px 10px grey;
+    margin:auto;
+    width: 500px;
+    height: 100px;
+    background-color: rgb(179, 225, 107);
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgb(238, 254, 17);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
+
+
+body{
+    position: absolute;
+    height: 230px;
+    margin: 0;
+    padding:0;
+    left: 0;
+    right: 0;
+    font-family: sans-serif;
+    background-image: url(https://i.pinimg.com/originals/4a/9e/d6/4a9ed6b86be396f05ba5b4d7b656b288.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+a{
+text-decoration: none;
+}
+
+.all {
+    position: absolute;
+    width: 90%;
+    height: 500px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.hero{
+    position: absolute;
+    width:100%;
+    height: 763px;
+}
+
+.navbar{
+    position: absolute;
+    width: 100%;
+    top: 20px;
+}
+
+.navbar img{
+    cursor: pointer;  
+    max-width: 35%;
+}
+
+.pages{
+    float: right;
+    position: relative;
+    top: 20px;
+    right: 15%;
+}
+
+.pages a{
+    margin-left: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+    line-height: 26px;
+    color: rgb(5, 53, 10);
+}
+
+.registration{
+    position: absolute;
+    right: 0;
+    top: 15px;
+    height: 35px;
+    background: #f19151;
+    border: 1px solid #957400;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgb(10, 57, 4);
+}
+
+.registration a{
+    color: #034319;
+    padding: 10px 10px;
+}
+footer {
+    background-image: none;
+    color: rgb(9, 111, 7);
+    padding: 10px;
+    bottom: 0;
+    margin: auto;
+  width: 100%;
+  position: absolute;
+  bottom: 10;
+  left: 10;
+    
+  }
+  
+  .contact-info, .privacy-policy {
+    margin-bottom: 0px;
+  }
+  
+  .privacy-policy a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .privacy-policy a:hover {
+    text-decoration: underline;
+  }
+
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+  }
+  
+  input[type="text"], input[type="email"], input[type="password"], textarea {
+    display: block;
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+  }
+  
+  form {
+    background-color: #4CAF50;
+    color: white;
+    padding: 150px 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
