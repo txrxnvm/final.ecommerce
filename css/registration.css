@@ -157,3 +157,28 @@ footer {
     background-color: #45a049;
   }
   
+  footer {
+    background-image: none;
+    color: rgb(9, 111, 7);
+    padding: 10px;
+    bottom: 100;
+    margin: auto;
+   width: 100%;
+   position: absolute;
+   bottom: 10;
+   left: 10;
+    
+  }
+  
+  .contact-info, .privacy-policy {
+    margin-bottom: 10px;
+  }
+  
+  .privacy-policy a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .privacy-policy a:hover {
+    text-decoration: underline;
+  }

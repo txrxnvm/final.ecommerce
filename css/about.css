@@ -1,15 +1,14 @@
-footer {
+/*footer {
     background-image: none;
     color: rgb(9, 111, 7);
     padding: 10px;
-    bottom: 0;
+    bottom: 100%;
     margin: auto;
   width: 100%;
   position: absolute;
-  bottom: 0;
   left: 10;
     
-  }
+  }*/
   
   .contact-info, .privacy-policy {
     margin-bottom: 10px;
